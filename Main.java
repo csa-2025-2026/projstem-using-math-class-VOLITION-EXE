@@ -28,12 +28,12 @@ public class Main
         */
         System.out.println("Enter two doubles:");
         System.out.print('>');
-        double 1st;
-        1st = scan.nextDouble();
-        System.out.print("\n>");
-        double 2nd;
-        2nd = scan.nextDouble();
-        System.out.print("\nDistance: " + roundedDist(1st, 2nd));
+        double f;
+        f = scan.nextDouble();
+        System.out.print('>');
+        double s;
+        s = scan.nextDouble();
+        System.out.println("Distance: " + roundedDist(f, s));
 
     }
     public static int roundedDist(double a, double b)
